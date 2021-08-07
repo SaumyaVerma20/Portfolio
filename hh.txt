@@ -1,0 +1,73 @@
+<div class="box img-wrapper">
+        <div class="boxInner inner-img imgwrapper" onclick="openLightbox();toSlide(1)" >
+          <img src="img/p3.png" alt="project1" class="img-responsive"/>
+          <div class="titleBox">
+            Project 1
+            Form validation using JavaScript
+          </div>
+        </div>
+      </div>
+
+
+      <div class="box img-wrapper">
+        <div class="boxInner inner-img imgwrapper" onclick="openLightbox();toSlide(1)">
+          <img src="img/p2.png" alt="project2" class="img-responsive" />
+          <div class="titleBox">
+            Project 2
+            Landing Page of cafe
+          </div>
+        </div>
+      </div>
+
+
+      <div class="box img-wrapper">
+        <div class="boxInner inner-img hover-shadow preview imgwrapper" onclick="openLightbox();toSlide(1)">
+          <img src="img/p1.png" alt="project3" class="img-responsive"/>
+          <div class="titleBox">
+            Project 3
+            Landing Page
+          </div>
+        </div>
+      </div>
+
+
+      <div class="box img-wrapper">
+        <div class="boxInner inner-img hover-shadow preview imgwrapper" onclick="openLightbox();toSlide(1)">
+          <img src="img/p4.png" alt="project4" class="img-responsive" />
+          <div class="titleBox">
+            Project 4
+            Biography page
+          </div>
+        </div>
+      </div>
+
+
+      <div class="box img-wrapper">
+        <div class="boxInner inner-img hover-shadow preview imgwrapper" onclick="openLightbox();toSlide(1)">
+          <img src="img/p5.png" alt="project5" class="img-responsive" />
+          <div class="titleBox">
+            Project 5
+            Photography landing page
+          </div>
+        </div>
+      </div>
+
+
+<div class="nav-btn">
+        <label for="nav-check">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+      </div>
+    </div>
+
+      <div class="nav-links">
+        <a href=""></a>
+        <a href="">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>

@@ -1,0 +1,54 @@
+<div class="top-menu">
+     <span class="menu"> </span>
+
+     <nav id="navbar" class="nav">
+       <ul class="nav-list">
+     <li><a class="active" href="index.html"><span data-hover="Home">home</span></a></li>
+     <li><a href="#about" class="scroll"><span data-hover="skills"><span>About Me</span></a></li>
+     <li><a href="#skills" class="scroll"><span data-hover="skills"><span>skills</span></a></li>
+     <li><a href="#projects" class="scroll"><span data-hover="projects">projects</span></a></li>
+     <li><a href="#contact" class="scroll"><span data-hover="contact">contact</span></a></li>
+     </nav>
+    </ul>
+  </div>
+
+
+css
+.nav {
+  display: flex;
+  justify-content: flex-end;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #12263a;
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
+  z-index: 10;
+}
+@media (max-width: 28.75em){
+.nav-list {
+  display: flex;
+  margin-right: 2rem;
+}
+
+.nav {
+  justify-content: center;
+}
+}
+.nav-list {
+  margin: 0 1rem;
+}
+
+
+}
+
+.nav-list a {
+  display: block;
+  font-size: 2.2rem;
+  padding: 2rem;
+}
+
+.nav-list a:hover {
+  background: #db504a;
+  color:#12263a;
+}
